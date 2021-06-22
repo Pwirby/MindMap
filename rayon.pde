@@ -17,6 +17,9 @@ class Rayon {
   void rewrite(String s) {
     this.s = s;
   }
+  void recolor(color c) {
+    this.c = c;
+  }
 
   void display() {
     stroke(c);
